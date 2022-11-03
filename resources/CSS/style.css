@@ -141,3 +141,44 @@ nav a{
     text-decoration: none;
     color: dodgerblue;
 }
+.courses{
+    background-color: rgb(228, 228, 228);
+    padding: 32px 72px;
+    align-items:center ;
+}
+.courses-heading{
+    text-align: center;
+    padding-bottom:32px ;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(75, 75, 75) ;
+}
+.courses-row{
+    display: flex;
+    width: 100%;
+
+}
+.course-card{
+    margin-left:32px;
+    margin-bottom: 32px;
+    width: 30%;
+    background-color: whitesmoke;
+}
+.course-card img{
+    width:100%;
+    height: auto;
+}
+.course-card .course-text{
+    padding: 16px 30px 24px 16px;
+    
+}
+.course-text h4{
+    font-weight: bold;
+    margin-bottom:8px ;
+}
+.course-text p{
+    color: rgb(107, 107, 107) ;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 200;
+}
