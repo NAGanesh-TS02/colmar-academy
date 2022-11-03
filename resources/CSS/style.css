@@ -1,4 +1,84 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    
+}
+header{
+    height: 64px;
+    padding-inline: 24px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 1;
+}
+.logo{
+    margin-left: 24px;
+    margin-top: 12px;
+    display: inline;
+    font-size: 32px;
+    vertical-align: middle;
+    float: left;
+}
+.logo img{
+    vertical-align: middle;
+
+}
+#logo-bold{
+    font-weight: bold
+}
+#logo-light{
+    font-weight:200 ;
+    color:gray;
+}
+nav{
+    float: right;
+}
+nav ul{
+  display: flex;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-top: 14px;
+  text-decoration: none;
+  list-style-type: none;
+}
+nav a{ 
+  text-decoration: none;
+  color: black;
+  margin-left: 16px;
+}
+.banner{
+    background-color: rgb(209, 209, 209);
+    height: 80%;
+}
+.banner .row{
+    width: 95%;
+}
+.banner img{
+    padding: 32px 24px;
+}
+.banner .col .left{
+    width:60%;
+}
+.banner .right{
+    text-align: left;
+    color: rgb(88, 88, 88);
+    align-items: center;
+    display: flex;
+    margin-block: 20px;
+}
+#banner-title{
+    font-weight: bold;
+    font-size: 48px;
+}
+#banner-text{
+    font-size: 24px;
+}
+.banner button{
+    width: 90%;
+    background-color: gray;
+    padding-block: 8px;
+    border: 0;
+    color: white;
+    font-size: 20px;
 }
