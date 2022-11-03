@@ -22,7 +22,7 @@ header{
 }
 .logo img{
     vertical-align: middle;
-
+    height: 55px;
 }
 #logo-bold{
     font-weight: bold
@@ -81,4 +81,63 @@ nav a{
     border: 0;
     color: white;
     font-size: 20px;
+}
+.information{
+    display: flex;
+    background-color: white;
+}
+.information .main-information{
+    width:60%;
+    padding: 32px 0px 32px 24px;
+    border-right: 1px solid rgb(218, 217, 217);
+    
+}
+.main-information img{
+    padding: 0px 24px 32px 0px;
+    width:100%;
+}
+.information .side-information{
+    display: flex;
+    width: 40%;
+    flex-direction:column;
+    margin-left:16px ;
+    padding-top: 32px ;
+    padding-bottom: 32px;
+    vertical-align: middle;
+}
+.information .row-right{
+    display: flex;
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+.information .row-right:hover{
+    background-color: rgb(209, 209, 209); 
+}
+.side-information .row-right .image-box{
+    width:35%;
+    height: auto;
+    padding: 16px;
+}
+.side-information img{
+    width: 100%;
+    height: auto;
+}
+.side-information .row-right .text{
+    width:65%;
+    height: 90%;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: left;
+    line-height: 16px;
+}
+.information h4{
+    font-weight: bold;
+}
+.information p{
+    color: rgb(70, 70, 70);
+}
+.information a{
+    text-decoration: none;
+    color: dodgerblue;
 }
