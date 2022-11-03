@@ -220,12 +220,15 @@ footer{
     padding: 16px 24px;
     border-top: 1px solid rgb(218, 217, 217);  
 }
+.foot-left p{
+    width: 500px;
+}
 .foot-right {
     display: flex;
     vertical-align: middle;
     flex-direction: row;
     float: right;
-    padding-left: 1000px;
+    padding-left: 800px;
 } 
 .foot-right a{
     text-decoration: none;
