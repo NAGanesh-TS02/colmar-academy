@@ -221,14 +221,13 @@ footer{
     border-top: 1px solid rgb(218, 217, 217);  
 }
 .foot-left p{
-    width: 500px;
+    width: 1180px;
 }
 .foot-right {
     display: flex;
     vertical-align: middle;
     flex-direction: row;
     float: right;
-    padding-left: 500px;
 } 
 .foot-right a{
     text-decoration: none;
